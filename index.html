@@ -4,44 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./font.css" />
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/laptop.css">
+
+    <link rel="stylesheet" href="./css/font.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     
-    <title>Assignment 02</title>
+    <title>Assignment 03</title>
   </head>
   <body>
-    <div id="body";class="container-fluid object-fit-fill">
-      <div class="bg-primary position-relative banner;">
-        <img style="height:100vh !important;" class="img-fluid object-fit-cover " src="https://lh3.googleusercontent.com/pw/AJFCJaVhQVceQKUEyIcx5hU0WfU3eivYRGjAdj0OtZ-83bHeE3Yp3ATZwzkIqsM-5bTjEzwLdwju1bdmu-4yAjT--2GSrFdHGODapWTpCg_7FOhzhhojgF_86LKssaoWkrNiaFbxYsBHH-WMuWyM3KnozjbW2w=w1600-h759-s-no?authuser=0" alt="banner image" >
+    <div id="body"; class="container-fluid">
+      <div class="position-relative banner">
+        <img class="img-fluid object-fit-cover" src="https://lh3.googleusercontent.com/wYv2OFr1zNrwodSK96prlP_s8ze64SbHPRPoKWKab-edCbKWOwFOC0JLWXsjlwItikLCmH_vttA90nJ5O4tABebgU66s95t0xoWtCoWUzb6sZMKjyx55RO2Ms6Tug7G-H3bOvpgwO8bX4Fi4ypvbihnXCAu0PLqQJCglSpuSFBFl9KmBPDTWcV_mzFq_lhQQlOmlfn8l0OhvnN-wXcNxm4LBBq_ovkgvXaHXPudLUxcnusM6ALuqlzMmidRKlyhHMq66Va8o1y4MDxuoGETClCjX6kF_dnN5J7CyLVxe90ZFGs86wuC_sgL2_BRlVgBgy92yemggnjwEZJV95rHoXX4cUEEAXb59PfdcWIqmdFmnKGDTnSEGhg7Le7CEepQKLuDffUg-5UfLlUuKCcKlpPTK8GzETe6ilefKD5JDUyjDfRilELbFdQ6tBtE0snl7U6dLl7XMQLIxXUnIQUolIjdR1tz0Uwehjeeo4ueMNa1lE0vr4a9ri3-w5SWGSVdiwYvsk_eRMInlX3Q3vc7SbOXxgMvuu74eQBloWb_gDYx8OfesWKRonQNC5wJdlfav6FaLtLLdc2myFCjwZlNvBA8wpwS-sMC6jnLaR2VwVKDsZVDDU65KCMcrTdYUYAmNG66xS4NM5e46em7HUqnSsswmvBYQjmD1U3YguD5-qUbnBbtsRanzQrxNurz4WLPVlMupQ7TpyCXf88ligR6e_mob1l0aglvusPSklqyrcOJhbVeEyut4glzxk0kJZn-Z6SQo-DPOGWkhL9yKEOW5JCVwu9XVOjLly7CbggpzvdKOEl4ACViOJRmPU01rS1HFYM7xEf3HCK6ZkeFZkFhArxYyuH8z7foMAgiz5Oi3EoD3YsNxUiETr2qMfepVElXB0-_IJX4G1Z_Xhp9sZ6UpEji2jVI3hJcqsrGHS9jqmN5rVDF5ag=w1600-h759-s-no?authuser=0" alt="banner image" >
 
-        <div style="position: absolute;  left: 50%;top: 30%; transform: translate(-50%,0%);"  >
-          <h1 class="text-white text-center">Nguyễn Văn A</h1>
-          <span mb-3 class="text-white text-center">Full Stack Developer</span>
+        <div style="position: absolute;  left: 50%;top:20%; transform: translate(-50%,0%); text-align: center;;"  >
+          <h1 class="mb-0 text-white text-center text-red">Nguyễn Ngọc Hải</h1>
+          <small class=" mb-2 text-white text-center">Full Stack Developer</small>
         </div>
       </div>
     
 
       <section id="navbar">
-        <nav class="navbar navbar-expand-md bg-light justify-content-sm-start justify-content-md-center">
-          <!-- <div class="container  "> -->
-            <ul class="navbar-nav bg-light "> 
-              <!-- <li class="nav-item"></div> -->
-              <li class="nav-item p-2  border-left"><i class="icon-user" style="color:  #3385ff
-                "></i><a href="#">Thông tin</a></li>
-              <li class="nav-item p-2  border-left"><i class="icon-doc-text-inv" style="color:  #3385ff
-                "></i><a href="#">Lý lịch</a></li>
-              <li><div class="spacing border-left" ></div></li>
-              <!-- <div class="navbar-nav" style="font-size:22px;">Nguyễn Văn A<div style="font-size:8px;color:#cbc8c8;">Full Stack Developer</div></div> -->
-              <li class="nav-item p-2 border-left"><i class="icon-mail-alt" style="color:#3385ff" ></i><a href="#certificate">Chứng chỉ</a></li>
-              <li class="nav-item p-2 border-left"><i class="icon-star-1" style="color:#3385ff "></i><a href="#project">Dự Án</a></li>
-              <!-- <li class="nav-item"></div> -->
-            </ul>
-          <!-- </div>  -->
-        <nav>
+        <div class="container-navbar">
+            
+          <div class="nav-item">
+            <i class="icon-user" style="color:  #3385ff
+            "></i><a href="#">Thông tin</a>
+            </div>
+
+
+          
+          <div class="nav-item" ><i class="icon-doc-text-inv" style="color:#3385ff;
+            "></i><a href="#">Lý lịch</a></div>
+          
+
+          
+            <div class="nav-item"> <div class="content">Nguyễn Ngọc Hải</br>
+              <span style=" font-size:9px;color:#cbc8c8;">Full Stack Developer</span>
+          </div></div>
+
+
+
+          <p class="nav-item"><i class="icon-mail-alt" style="border:none;color:#3385ff;" ></i><a href="#certificate">Chứng chỉ</a></p>
+
+          <div style="border-right: 1px solid #cbc8c8"class="nav-item"><i class="icon-star-1" style="color:#3385ff; "></i><a href="#project">Dự Án</a></div>
+          
+       
+      </div> 
+        
 
         
       </section>
@@ -62,11 +76,11 @@
             <h1 class="section-title">Thông tin cá nhân</h1>
             <ul class="mt-40 info">
               <li><span>Giới tính</span> : Nam</li>
-              <li><span>Ngày sinh</span> : 19/05/2000</li>
-              <li><span>Điện thoại</span> : (+84) 912398xxx</li>
-              <li><span>Email</span> : sinhvien@funix.edu.vn</li>
-              <li><span>Địa chỉ</span> : Số 10, đường 10, Hà Nội</li>
-              <li><span>Website</span> : https://abc.tech</li>
+              <li><span>Ngày sinh</span> : 08/01/1993</li>
+              <li><span>Điện thoại</span> : (+84) 836833332</li>
+              <li><span>Email</span> : hainn93@gmail.com</li>
+              <li><span>Địa chỉ</span> : Số 17, đường Thanh Yên, Phúc Tân, Hoàn Kiếm, Hà Nội</li>
+              <li><span>Website</span> : <a href="https://hainguyen993.github.io/Assignment-03/"> https://hainguyen993.github.io/Assignment-03/</a></li>
             </ul>
             <nav style="padding: 20px 0px 0px 20px; color: #45cef8">
               <i class="icon-twitter"></i>
@@ -88,19 +102,31 @@
                   <h1>Kinh nghiệm</h1><div><i class="ic-toolbox big-icon"></i></div>
                 </div >
                 <DIV CLASS="BRAND">
-                  <strong>Công ty Y</strong></br>
+                  <strong>CÔNG TY TNHH TMCP Xây Dựng QD</strong></br>
                   
-                    <i>05/2022 - <i class="highlight" style="padding-left:5px;padding-right:5px;">Hiện tại</i></i><BR>
-                      -	Full Stack Developer<br>
-                      -	Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.<br>
-                      -	Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL
+                    <i>2020 - <i class="highlight" style="padding-left:5px;padding-right:5px;">Hiện tại</i></i><BR>
+                      Quản Lý Dự Án<br>
+                      - Tiếp nhận dự án, Trao đổi trực tiếp với khách hàng về nhu cầu khách hàng đối với dự án.<br>
+                      -	Phối hợp các bộ phận liên quan từ thiết kế đến thi công theo đúng yêu cầu của khách hàng.<br>
+                      - Đảm bảo dự án đi theo đúng tiến độ và yêu cầu kỹ thuật.<br>
+                      -	Nghiệm thu từng phần và tạo yêu cầu thanh toán từ phần với chủ đầu tư.<br>
+                      - Nghiệm thu bàn giao dự án.<br>
+                      - Thực hiện bảo hành đối với những lỗi kỹ thuật thuộc phạm vi bảo hành.
                 </DIV>
                 <DIV CLASS="BRAND">
-                  <strong>Công ty x</strong></br>
-                    <i>06/2021 - 04/2022</i><br>
-                      Web Designer<br>
-                      -	Thiết kế Website dựa trên yêu cầu của khách hàng.<br>
-                      -	Sử dụng các công cụ: Figma, Canva, PTS.
+                  <strong>CÔNG TY TNHH HITACHI PLANT TECHNOLOGIES</strong></br>
+                    <i>2019 - 2020</i><br>
+                      Kỹ Sư Hệ Cơ<br>
+                      -	Triển khai tiến độ thi công và yêu cầu kỹ thuật của dự án. <br>
+                      - Nghiệm thu cùng đại diện chủ đầu tư sản phẩm hoàn thiện.<br>
+                      -	Sử dụng các công cụ: AutoCad, Word, Excell.
+                </DIV>
+                <DIV CLASS="BRAND">
+                  <strong>CÔNG TY CỔ PHẦN KỸ THUẬT JESCO HÒA BÌNH</strong></br>
+                    <i>2017 - 2019</i><br>
+                      Giám Sát Kỹ Thuật<br>
+                      -	Tổ chức Giám Sát thi công công trình theo tiến độ và yêu cầu kỹ thuật của dự án.<br>
+                      -	Sử dụng các công cụ: AutoCad, Word, Excell.
                 </DIV>
               </div>
               <div class="stren card mt-4 p-4" >
@@ -109,9 +135,9 @@
                 </div>
                 <div>HTML/CSS:Fundamental</div>
                 <div> <span class="score"></span><span class="inscore"></span><span class="inscore"></span></div><br>
-                <div>JavaScript: Intermediate</div>
-                <div><span class="score"></span><span class="score"></span><span class="inscore"></span></div><br>
-                <div>NodeJS:Intermediate</div>
+                <div>PHP: Fundamental</div>
+                <div><span class="score"></span><span class="inscore"></span><span class="inscore"></span></div><br>
+                <div>Phython:Intermediate</div>
                 <div><span class="score"></span><span class="score"></span><span class="inscore"></span></div><br>
                 <div>Bootstrap 5:Fundamental</div>
                 <div><span class="score"></span><span class="inscore"></span><span class="inscore"></span>
@@ -123,7 +149,7 @@
                 <div class="top-and-icon" style="margin-top: 20px">
                   <h1>Ngôn ngữ</h1><div><i class="ic-mic big-icon"></i></div>
                 </div>
-                <div>Tiếng Anh-IELTS 7.0</div>
+                <div>Tiếng Anh-Toeic 650</div>
                 <div><span class="score"></span><span class="score"></span><span class="inscore"></span></div><br>
                 <div>Tiếng Nhật JLPT N4</div>
                 <div><span class="score"></span><span class="inscore"></span><span class="inscore"></span>
@@ -138,23 +164,23 @@
               </div>
 
               <div CLASS="BRAND">
-                <strong>FPT Edu Hackathon 2019</strong>
+                <strong>Cuộc thi SV 3T</strong></br>
                 
-                <i>03/2019 - 05/2019</i><BR>
-                  - Giải 3 bảng A<br>
-                  -	Đề tài: Trang Web về phân loại rác thải.
+                <i>2015</i><BR>
+                  - Giải 3: Đội nhóm<br>
+                  -	Đề tài: 3T và Chất Thải Nguy Hại.
               </div>
       
-              <div CLASS="BRAND">
+              <!-- <div CLASS="BRAND">
                 <strong>Câu lạc bộ Z</strong>
                 <i>08/2018 - 08/2019</i><BR>
                   -	Trưởng ban chuyên môn<br>
-              </div>
+              </div> -->
       
               <div CLASS="BRAND">
-                <strong>Câu lạc bộ Z</strong>
-                <i>08/2016</i><BR>
-                  -	Hỗ trợ tổ chức tuần lễ văn hoá Việt Nam - Nhật Bản
+                <strong>Câu lạc bộ tiếng Anh XOXO English</strong></br>
+                <i>2014-2016</i><BR>
+                  -	Cùng các thành viên trong CLB giao lưu tại công viên 23/9 Q1, TP. HCM. Các buổi sinh hoạt sẽ nói về các chủ đề bằng 100% tiếng Anh và cùng thử sức nghe nói cùng khách du lịch bằng 100% tiếng Anh.
               </div>
 
               </div>
@@ -163,39 +189,40 @@
               <h1>Học vấn</h1><div><i class="ic-pencil big-icon"></i></div>
               </div>
               <div CLASS="BRAND">
-                <strong>FUNiX</strong></br>
-                  <i>06/2021 - 05/2022</i><BR>
-                  -	Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.<br>
-                  -	GPA: 9/10
+                <strong>Đại Học Tôn Đức Thắng</strong></br>
+                  <i>09/2011 - 05/2016</i><BR>
+                  -	Tốt nghiệp loại khá.<br>
+                  -	GPA: 6.2/10
               </div>
               
-              <div CLASS="BRAND">
-                <strong>Cử nhân - ĐH FPT</strong>
+              <!-- <div CLASS="BRAND">
+                <strong>Cử nhân - ĐH FPT</strong></br>
                 <i>08/2016 - 07/2019</i><BR>
                   -	Chuyên ngành: Kỹ thuật phần mềm.<br>
                   -	GPA: 3.2   
               </div>
             
               <DIV CLASS="BRAND">
-                <strong>Đại Học Hà Nội</strong>
+                <strong>Đại Học Hà Nội</strong></br>
               
                 <i>08/2016 - 02/2018</i><BR>
                   -	Hệ từ xa, chuyên nghành: Ngôn ngữ Nhật<br>
                   -	Gpa 2.8/4
-              </DIV>
+              </DIV> -->
               </div>  
-              <div class="hobie card mt-4 p-4" style="display: flex;flex-wrap: wrap;flex-direction: column;">
-              <div class="top-and-icon" style="margin-top: 20px;">
-                <h1>Sở thích</h1><div><i class="ic-telescope big-icon"></i></div>
-              </div > 
-              <div style="display: flex;justify-content: space-evenly;"> 
-                <div class="circle"><i class="ic-megaphone"></i></div>
-                <div class="circle"><i class="ic-hotairballoon"></i></div>
-                <div class="circle"><i class="ic-strategy"></i></div>
-                <div class="circle"><i class="ic-basket"></i></div>
-              
-            </div>
+
+              <div class="hobie card mx-auto mt-4 p-4" style="display: flex;flex-wrap: wrap;flex-direction: column;">
+                <div class="top-and-icon" style="margin-top: 20px;">
+                  <h1>Sở thích</h1><div><i class="ic-telescope big-icon"></i></div>
+                </div> 
+                <div style="display: flex;justify-content: space-evenly; justify-items:center;"> 
+                  <div><div class="mx-auto circle"><i class="ic-megaphone"></i><br></div>Âm nhạc</div>
+                  <div><div class="mx-auto circle"><i class="ic-strategy"></i></div>Chơi game</div>
+                  <div><div class="mx-auto circle"><i class="ic-hotairballoon"></i></div>Du lịch</div>
+                  <div><div class="mx-auto circle"><i class="ic-basket"></i></div>Nấu ăn</div>
+                </div>
               </div>
+            
             </div>
           </div>
           </div>
@@ -208,53 +235,49 @@
 
 
       <section id="certificate">
-        <div class="container my-4 py-4" style="background-color: #f7f7f7;">
+        <div class="certificate container my-4 py-4" style="background-color: #f7f7f7;">
           <div class="row">
           
             <h2 class="section-title">Chứng chỉ - Giải thưởng</h2>
             
             <!-- box 1 -->
             
-            <div class="col-sm-12 col-md-6  p-4 my-3">
+            <div class="border-warning border-bottom col-sm-12 col-md-6 p-4 my-3">
             
-              <img class="img-fluid" src="https://lh3.googleusercontent.com/I2GN3sG-redmuyyNKMm8yjdaPCaIIP5zgz9QY9KjKq2zmj2TP2zOiWZPlV1Wxf8bV38feaBYXObhG7VQOV80dBues1m196fn1AyV4piKJvbx8hjBtHeHyL4WCa3NnjjVm2E9n_Cb4A3QGQnWRbtSPNfCku1KsE3bmcMOqrdRjVDuVl0OGwGcTrw5RHkvjDJQ2TY7xx2nUZqtikBnLH6zUp8OxcqY8_2rnfjMgeXBMS1zOq0jzVXhvDD9y26YePiMGCEUwC1UuBz9kCySyW1mWTcmoCRvqfuQYbAapa_jUcDNqi_aO-QsPLfllP3z2WPnpwo6JrG6eeOGxC-J8xz6u8vR9-04CXPHdjY_rQYAouBdoUAObLiXJcjNbzh9HNy_CS064J19IfNM64kapABMaTlfzQ-YTWgPNZIKcnzHOBxc42E7sx5Tl8eGbZ3lRH_ZpgmwPf5UtV9GN3mh5IJh1lwpglIe1EGQN7KV2WzqLKwq9Ss96tHNCl6kpgkIUkuRvxs-E_oPRpmn7rNBXzO4Wsr1lpNFIP8Yx9H-frUqplmQ22UpQsTKvz0hC5hoZ1QIyuuxFMmuoWDhGmfEiOu5yO_qIt0XPgvLOlJo8vYjyn19Cgm7u07vpRd_3zPgIpCR1ETZ4sJo1Vf1IMTxY29eXvMCHIvIjtn1lNgCX1IMK7HI5L5n1_Lsm3tJOZqdYgLZYKQ8Y99ZdrCU_oP-IKV1mE9vRx1KVU6QZnuVFM-0xi5qMD4CeWsjv0lJvJI8G4cwhGBRcPFq6ErNLESLH2JoagqAhhrVSB30GAJX39eva_kJUnXAr_tf0WenVbbIh7HCQRSt_5Oejpuic2_AAif7C4Q_LAMueHIqjQVjaUrK7M5KkP7qNw0sZJ-ICO7ZyV51_6AM7TLyaOU5VvKBYHfcbBVXFTzfs3Yc377tNyosKWUYzj8rbA=w369-h184-no?authuser=0" alt="certificate picture">
-              <div class="certify-content">
-                <div class="certify-head ">CHỨNG CHỈ LẬP TRÌNH WEB - FUNiX</div>
+              <img class="img-fluid" src="https://api2.sololearn.com/v2/certificates/CT-ZL5FYLPG/image/jpg" alt="certificate picture">
+              <div class="pt-2 certify-content">
+                <div class="certify-head ">CHỨNG CHỈ MARCHINE LEARNING</div>
                 <div class="certify-sup">
-                  -	Chứng chỉ thuộc chương trình CCDN<br>
-                  -	GPA 8.6
+                  -	Chứng chỉ đươc cấp bởi https://www.sololearn.com/
                 </div>
               </div>  
             
             </div>
 
-            <!-- tạo border-bottom -->
-            <div class=" spacing border-warning border-bottom d-sm-flex d-md-none">
-            </div>
+            
+          
             <!-- box 2 -->
-            <div  class="border-warning border-left col-sm-12 col-md-6   p-4 my-3">
-              <!-- style="border-left: solid #d6c08d;" -->
-              <img class="img-fluid" src="https://lh3.googleusercontent.com/iyT_D0JtSKJkEuBKg-VdeOggJWjHoJ03GLxW9kgJbVrBeMpSo1G6pVdhn1y4Q9hVEPvpQRDzOtMYIai-fMq26G8Z_4M4sh_YGuGIxabDTwBfL93nP9XUVY-FHIInR96Jkh1VBYEzcGoQ3MRYISVv6lcM9qgxk1fxgXynvSBYhSEpsjyh2H0Ihe8vXpFlrgOqkr3nV_Cgq5Xt0SkTF0TWCutc2Qg7pAAlBijupqy2VneQcBGlKdXWt158qTMLI0ohHsi6qbNx-pp2hI62ixRcPQsYXSKRueXzTCWFvhEJc2a5x3lVbxO_HLJPEyOp6IhRJMESALM5-24F0EbJnZ6zhG2mbXJCC3_o1T7gEImflf2wvg70spkG3uec-RfM1BukAQgDlLUbad7ZAA14AfjsUkErF5Fd3YzQ1AI3KVo3Y8Vy-9D7sDE_71rqcrVBwZT54YDIuEGqdKpHgAMa3myw2gtvXyc3kRDrooy70BTtfaQBR-ECzx8izQV25IXut9DgXC66eplgz1sa36BcRwn4UBzsUuQ3GSM2_dZ4hBd25VyIBwH6jYppMwkZPB3i9wOEnaOc7dtwnaG-5RTeE-CjDi_O8x3ccOVb7-FSs-IDTdv4nZqxZKdjzvfpMk417qTiclashjsmV8Bg5GDojnJChKmk3DZSZIXFB90az4g3Twm5DPyT92fNxPoMTfRbFyjZge_lLorT4fVc76ZXnhYZFz7AfJByWb9Wxz2fNfP7tsHrAqeQRhHgnVUXOS9S1WzIy9TnMkulKcYXsXQu9Ob_zZ9Segxhz6HxXDZRHeK68QsUEP2p59cflBZbvyMfBsXdxoulLFPfDkup1ziZoucMDkxyhDN3lhQmqnUg9gMsyBvr6D5_eoACPX0smBJmiqJBDTNP1SYlljyTAch0LKwR9cDih6GtTjcfJgZ-Cqvx3KaxVjdwog=w1123-h559-s-no?authuser=0" alt="certificate picture">
+            <div  class="border-warning border-left col-sm-12 col-md-6 p-4 my-3">
               
-              <div class="certify-content">
-                <div class="certify-head ">CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT  - FUNiX</div>
+              <img class="img-fluid" src="https://api2.sololearn.com/v2/certificates/CT-TZSXZZQY/image/jpg" alt="certificate picture">
+              
+              <div class="pt-2 certify-content">
+                <div class="certify-head ">CHỨNG CHỈ LẬP TRÌNH WEB BẰNG PHP</div>
                 <div class="certify-sup">
-                  -	Chứng chỉ thuộc chương trình CCDN<br>
-                  -	GPA 8.6
+                  - Chứng chỉ đươc cấp bởi https://www.sololearn.com/ về Font-End
                 </div>
               </div>  
             </div>
-            <!-- style="grid-column:1/2;" -->
+            
             <!-- box 3 -->
             <div class="border-warning border-top">
             <div  class="col-sm-12 col-md-6 p-4 ">
-              <img class="img-fluid" src="https://lh3.googleusercontent.com/iyT_D0JtSKJkEuBKg-VdeOggJWjHoJ03GLxW9kgJbVrBeMpSo1G6pVdhn1y4Q9hVEPvpQRDzOtMYIai-fMq26G8Z_4M4sh_YGuGIxabDTwBfL93nP9XUVY-FHIInR96Jkh1VBYEzcGoQ3MRYISVv6lcM9qgxk1fxgXynvSBYhSEpsjyh2H0Ihe8vXpFlrgOqkr3nV_Cgq5Xt0SkTF0TWCutc2Qg7pAAlBijupqy2VneQcBGlKdXWt158qTMLI0ohHsi6qbNx-pp2hI62ixRcPQsYXSKRueXzTCWFvhEJc2a5x3lVbxO_HLJPEyOp6IhRJMESALM5-24F0EbJnZ6zhG2mbXJCC3_o1T7gEImflf2wvg70spkG3uec-RfM1BukAQgDlLUbad7ZAA14AfjsUkErF5Fd3YzQ1AI3KVo3Y8Vy-9D7sDE_71rqcrVBwZT54YDIuEGqdKpHgAMa3myw2gtvXyc3kRDrooy70BTtfaQBR-ECzx8izQV25IXut9DgXC66eplgz1sa36BcRwn4UBzsUuQ3GSM2_dZ4hBd25VyIBwH6jYppMwkZPB3i9wOEnaOc7dtwnaG-5RTeE-CjDi_O8x3ccOVb7-FSs-IDTdv4nZqxZKdjzvfpMk417qTiclashjsmV8Bg5GDojnJChKmk3DZSZIXFB90az4g3Twm5DPyT92fNxPoMTfRbFyjZge_lLorT4fVc76ZXnhYZFz7AfJByWb9Wxz2fNfP7tsHrAqeQRhHgnVUXOS9S1WzIy9TnMkulKcYXsXQu9Ob_zZ9Segxhz6HxXDZRHeK68QsUEP2p59cflBZbvyMfBsXdxoulLFPfDkup1ziZoucMDkxyhDN3lhQmqnUg9gMsyBvr6D5_eoACPX0smBJmiqJBDTNP1SYlljyTAch0LKwR9cDih6GtTjcfJgZ-Cqvx3KaxVjdwog=w708-h352-s-no?authuser=0" alt="certificate picture">
+              <img class="img-fluid" src="https://api2.sololearn.com/v2/certificates/CT-YLPTSNG9/image/jpg" alt="certificate picture">
               
-              <div class="certify-content">
-                <div class="certify-head ">CHỨNG CHỈ THIẾT KẾ DATABASE- FUNiX</div>
+              <div class="pt-2 certify-content">
+                <div class="certify-head ">CHỨNG CHỈ PHYTON DATA STRUCTURES</div>
                 <div class="certify-sup">
-                  -	Chứng chỉ thuộc chương trình CCDN<br>
-                  -	GPA 8.6
+                  -	Chứng chỉ đươc cấp bởi https://www.sololearn.com/
                 </div>
               </div>  
             </div>
@@ -262,21 +285,23 @@
             
         </div>
       </section>
+
+
       <!-- phần thông tin dự án  -->
       <section id="project">
         <div class="container">
           <h1 class="section-title">Dự án</h1>
           <div class="row">
             <!-- picture 1 -->
-            <div class="d-flex flex-column col-sm-12 col-md-4 my-4"><img class="img-fluid" src="https://lh3.googleusercontent.com/uNHii4nB6rvpTOw0sEtxZzjZesDWCmoN2nSRuqNHHVul5Nk7aR4bdC5y1Y34D1gFk5xnL0dHgWOhYZwJBLrbTPyOGNUvVDKbzLDEIcbBQei4A_BhxLHHHU0J8xhm7lAIrN801AJr1NzumCVdyZKYSmamTbhU5ve9PZmhZTN2_4pDcxH6GcavsUZLOhWi3_ZNTTIyU_zW-bV9waW1oSxIAvIakv6_shnGfTbRwPyltWUuo2tbjPipgQHdhPKDtpHRN0AdpT4mLzYWVLZJuclkWYt0QqLtFyc3PLLRy41BZJPqbek2YIBFHDskbw9yvmkekJRVxLqw14r8buly4TW5ggCbNGOlvN61M0SKUJ-BcQatcOE5T03WBrhl3T6ujUhUcamtS6aZoTaJgaDtQ07enOBMsBs5t1mBYqpg0jaTd66f9FTuNrihb0v6PwMNppnVnYHQrsrC24370gi_-L-YSbmH_IYEdV35zPOXsrQ47-tL0-fFjw0AeQSQT0j7V87qU3ocO9M1oCqQKOnSvgq21k_hgG79cd-W-9Dto28MtDRLucbR9jHNuB9nxH_XCICJdG-KhERaaiajOglF75Ibffzr99Y6cz4LH1Fiye-Pki5B1xoRonIUKZD9u8p_8aBgT-KHYxqAQaUbXPYfkIOW7OzZdAUAOGFcfzQcmWpmGBfuzLiMNMEK35nVb_TayLuCeyy5jSK5HGonZV176ipi2v4GwQhZqE7oWOVR8Pcp-hs9zSBrELSl2mRTDht7YMFeuoz6ouOoc3010AlGF1OxQ2K2QyZ5hBIV6aPE2_HAeCzCIXUpCxwcKrHTY09mHzYOLC6LZ7jSypACx_bs8YvEQB6s2UnDDp2fFImAoanno7VkQe8jl2axWFwKlDKFcqoY4EKGQoNLDFZnwSkfkNBabqr-skFdUhSNHXgOSfVuZ93w_E6gvA=w708-h486-s-no?authuser=0" alt="certificate picture">
+            <div class="d-flex flex-column col-sm-12 col-md-4 my-4"><img class="img-fluid" src="https://lh3.googleusercontent.com/azSqtjrFM0UG_frUFLlLkDFw-EGk8d_lyD5U4gIEN580jyhBY4ynXmKaXCM31fUJydsCssjSXM0Shm_fE3Q2NZgEDwAo18RhSer5xdH0DAb7CzDlurBfALjM2css3r3tbTAJN89vcWWieEX2x1T8RBJSVxVXrRmP20stoyUERv3AorxWoagsPl_zifLGuiHn3-q4jGt1A-BeFAGJDhGLio-10YCUoHfK1vTstLK9ZCMaS-mmgj3sJWVStj4FcCvH51extVwpbpXjDBc2_ePIQ9-V39VM9BcjyGdZ384TZN57AW7iVHnL5buJAdDemFHbNj1471niLrdJbtVR8QtmL_TklHxKxP1_vckBpNeN3nGUCf6cjL7lAXpjZ58IbR5VpCOyCMa-8eJznNuAc7Y7sPYePu-Wkz6tzdwQchc6GK4tHwowaNoRwswLt2GszWl4HQfSxcIeLzMfiZWYSrj8FKsZEscIP1QNNFG74s_chmVKcuEgZ56djZv5y9x9GLE0zVUBo1OxxOzuAik_zLf_p7K9ZFeYX5xB_nGHb2olAYiDizu_CVLjvbIczNvmERU9HqTRxNL5NZ6LywcTynmEKgOzlEisX4emmDuERthoPvtqezhaX6xbs2-_v7Tu-VmTXLQbwEyU_rgQnM1stdDLB7DvaIdURV4jD429qo4YyFCkhe7tE91lUvYCmsMSEMAu9y6K4aoMv5dLHAI2HWkc-Jprk8BPLyyJ_sfEaX9GJm7i9OWk476SuJfsRN9eYEH1AFXuBva8OQ1j_AMXrEmxIN89-ISx70j9fxB-2s5wYfMnYIIB3zJ-TnrwI84my85qTdijY4aCyQ8FWaANt31qErXoE2ABYBx1OePXNPpZTvwbAOBFiSMJ9quKEpArpCG6guna9eh-TauDj7RkY-RndQAxsXdsN8sTnCbW0b4LUTM0wUm-ZQ=w1602-h1100-s-no?authuser=0" alt="certificate picture">
               <div class="project-minibox">
                 <div class="project-box-head">CV Cá Nhân</div>
                 <div class="project-box-icon"> 
-                  <i class="highlight">2021</i>
+                  <i class="highlight">2023</i>
                   <i class="icon-user-1"></i>
-                  <p>FUNiX</p>
+                  FUNiX
                   <i class="icon-lamp"></i>
-                  <p>Developer</p>
+                  Developer
                 </div> 
                 <!-- Dòng 1  -->
                 <div class="project-box-table">
@@ -304,21 +329,21 @@
             
             
             <!-- picture 2 -->
-            <div class="col-sm-12 col-md-4 my-4"><img class="img-fluid" src="https://lh3.googleusercontent.com/d7numy60nlot0jdkSaK4kHNz7C98V7teysqU6n8x2sMeIrzaMjcLnZnuIZ8EHjderw3sFxfWfhpErtH_vzqjRM0xFxV8Oy8dAwpu5cx1IOSlw_rtye_wmIQbr6fJGhUgTRho_nUXeasqy496Fom6VCcl2IPYGL5W_hNlxXxeBR16tWeApUcyAVNy_p46nwLr-UOhpQseLstJfyESkzB3U5XsPZsta8XywOVqyHrc0h0xzo0DKsqj7elNggp9iUwcc-t2dlahgmAeWa7Mke6b45F792Eo57v5QJohKkwb2CPDgCAXpah6MWALxmdYzl8xbLwYJQMZlJA06SWzkQsyFSrS7QPdQ9EdIw2Mndd0-m92USxek1yiUGXkNdGPP9un2IKMykPaJ3JSHoTopwJgE2KM7o07I6Wy4e9LWsMu3F4JQn4FwSHQdxGIMZcn_4YsSBtcityl3BhnU_IrqzzWqO2-A9jDB7vmYLdphTPpcvCb3poBlmlVGRCn8sn-YzEtHnGgKxxai5S8Mz8Qv5JB8j-vCPKTfrKyCIQphnI_SKnt3iVUqcLc4NXE0YNttGE5GvOG8GYtv6gOnK16usRDcFXaR7umX8VSiiYn7jkxG_-QC-uv21qLEHjxBV9tdwqCEdhSixKUOSHESdniUMZWjt21gEJmUGNpT4c_nVZODBHGyvOaH-Y_LVI1RuA6F6kRkXCUfF60bkEFxRlhU5pFjW_cMXLtrbs7ZXyQZgd10t5nXegRg1y2iV3uK8kdJHiczUhfWFse75hwO7XRhEvD86GA9ekeL2OOgDhp1JctecQnjvjhTe6PSLhcvOOF1ZCgPhz-5UpswpMDtjAV3DwAjjkG_-vXrkm0lj6_W3z_87DazkeNUtxE7u2Fas0K_xQ4fFhyxAhlSjokD5puZ5hd_4nloC0_NOSHuC7pK805Ec4qpU8NXg=w708-h486-s-no?authuser=0" alt="certificate picture">
+            <div class="d-flex flex-column col-sm-12 col-md-4 my-4"><img class="img-fluid" src="https://lh3.googleusercontent.com/zPiJs3vAAvZJIN_2biZoHWjjPuxSkkx2wY9Hd4PLCz7wA40QBB6l4eNC4Utf5M8BJg29ZFCk2Hnljg4HrI-vd01vLCrMWuuFahcWOkyCU2ZE7wb57srhf792sKX9skYK2KiXHfpQNEh2AzW7OmrwrqeZTQtmApWuuevQwsvILiIJd9_ZiaCZS1e0bm2lOZzrIPuAajyfYd-OKTI7gexQlMPMhn3lVUjDW2G7qiwOa0VdBHEd1uXPO_B57KNkx3wtlpCsCf2kTyABkbGdG7B8AM1jcTHUN5IHX1fhoUGPdXyDettDUCqDRLOO_ktW3_iI2Sl2oEec78jz1aQaOyMmQDJnxw4jn3EY_GXJ9E7w4vhEqvfqFy4qRgkg7fd7KFcKeEOujOD8pPADguZMMHdy7TMENoXsBJpFHMTByU2iSkU5hKJblMff2K42LaX3xnqMqV1MJqtEXYwJOcYK1tmExArX7VJ5LUI_OsktgwiCM3xRSgeH0R8G5x6kByAH7kY9ipeH6sEZp4e55gXA2fzLnrGT4mR_reNb6pl9WBBw6CZuDzuKQYYdr0BdljF35EnPUg_d0EQcY8ncUp5mUjhWRQU4FW6DMzgkBuF2-8aghm3ZG6nJ8QIxbXdpl7xiRikMG5HsMuppS66F4G8bsEMU4Gr0HC-IZ_czVnd2hBau0l1d999EOIRXiwW7hL4gXaPT91jQvcGZCbwRfTvcPnoFQsKBqpk9NVKOD5ZaCxtWYMOTVFcSnX8kl7rPJWiddiQoTdHoOd2R9CCFOxK8OA0GQHjX7TweSUFmu07HDqup9PyaaC-F3du4AebKudMXH0Yztd_XfPeCSyGD4gG1R9aW5PyIXt6HHzqTGtBIiAvr_TDQBThJnCLujTHZpscxZ8LJWl25wdPQKYz2VuOBo9YSx5UOkBc4NfL5xHfJmWXeQSfC_XhU7w=w2160-h1190-s-no?authuser=0" alt="certificate picture">
             <!-- Box text -->
               <div class="project-minibox">
-                <div class="project-box-head">WEB QUẢN LÝ THÚ CƯNG</div>
+                <div class="project-box-head"><a style="text-decoration: none; color: black;"href="https://hainguyen993.github.io/lab18/">WEB Mô Phỏng Carousel</a></div>
                 <div class="project-box-icon"> 
-                  <i class="highlight">2021</i>
+                  <i class="highlight">2023</i>
                   <i class="icon-user-1"></i>
-                  <p>FUNiX</p>
+                  FUNiX
                   <i class="icon-lamp"></i>
-                  <p>Developer</p>
+                  Developer
                 </div> 
               <!-- Dòng 1  -->
                 <div class="project-box-table">
                   <div class="project-box-table-head">Mô tả</div>
-                  <div class="project-box-table-content">Ứng dụng giúp quản lý các thông tin của thú cưng như : Cân nặng, giống hình, tình trạng tiêm chủng… Bao gồm các chức năng thêm/xoá/sửa.</div>
+                  <div class="project-box-table-content">WEB mô phỏng các nội dung được xoay vòng với 2 button có thể tuỳ trọn nội dung tiếp theo hoặc quay lại nội dung của hình ảnh vừa xem. </div>
                   </div>
               <!-- Dòng 2 -->
                 <div class="project-box-table">
@@ -334,22 +359,24 @@
               </div>
               </div> 
             </div>
+
+
             <!-- picture 3 -->
-            <div class="d-flex flex-column col-sm-12 col-md-4 my-4"><img class="img-fluid" src="https://lh3.googleusercontent.com/WN7Ii6uc_V4sK78OmwrK0Ga-L0ePPLGrLE8IqNrDnC9f8eFO49uEcmoxrBeYkAaaobPx3YC_wq6As7S4rm8SI8lxePYMSq1L_lfr5bVo53vfZchhxPQxeEjrMl0ONuj9bbllx2xLIOO1EdBrmCIk5qXBctNgKIAzg24Snw7W7_Ac4x8K5wzNIR_nCGcJko8uF2zMghnFKRENegTCf8J_gad2H3g8EzxixH5qSOKOM5GaY-eVlOAWOWGgDJpEo-gK9oRi83eR8tz33lXLkIVvVHgpaYv-tO0bVMjg0P3wa4_jQy0ZP_7BWVecRLlg3RvIUP7z_wY_0Vb9Ebm0yU8f-d6IJVTjC-D3OcC4m4rfmfyirEi6fA-PAqDACU1B6gKensOxNU4hHdfH6ebIHcEujoa1_QbKhuvkBQpvVcfygzrjzLMxevMT6azv0W4CW5a0xoX5quuOKFIv2j2GMb0yv1hUtHIR229RwLzY7zcEnildvkUqgSjv8NQU18Pk8R6zEX9v0ybu0yajk0do4AdWmIozK1SP42eCUKTOBN6OR87wh2gpbguZHSR9xBCGX3AsUwtYFSs9TwXe9v4lbL8VMG_fdr4qEisTvZQIQz0-cBc3u8pR9TSetHb_P5iTENu1CRHs5SubNP-E-gzornuaXwHS_wS8fByFrGLQCExbR_ytOz0EndL4KWP7nLaSqdsknXhwKjVK9F4eYXb7wVmKZmgNaUEHGiHEogbVLSHxtpfmJ4jtPeBZ9O_Qju2SQZvTYcOH8w6wvMF6mm0lHBGebIYNvNcb7s8I1RDiY6V8qoPyUOguZ9lhY4wXKTxyN1Ium_JjbUhaGUwMnngvvArKlmVqjgbrwoe2Yrj7UbFntyEopMWTwL1-WNCYdhTwcFEMBzeHn75clUOlE68uiVX-i6mN899LIuDxFUfnE5B5nKDrxhoqng=w708-h486-s-no?authuser=0" alt="certificate picture">
+            <div class="d-flex flex-column col-sm-12 col-md-4 my-4"><img class="img-fluid" src="https://lh3.googleusercontent.com/to3YUymcmhKTbrDjIGuE5DMfkEI0lYG55enFg6amHfTGPNfo8RVl7rmv-ekKmt2fQ4PAHRloqW-kAJg3x1fKtdJoSNGYSl56kwzICUfiMIlkuU-fuxg3Lf-Pf187AgZsZGmUCyXKun3NLKDlMG3yLTV5t3C-eDReUCcuDnHm8fWDAHwGpNX_jK7sIBKuI68vrSSTrj8qnwrWYLz79DCaWdlYm70SpvLXOuPkKlvNDmX9PAdKyBSc5Qxxk1JA4E8y1cFUVgJH9JNlwFyhnhu9J6xUC2Fm9fybJVma7tJgA_AHvFzRfSbFVx6r7h2duSwtnVLZyJ8ojozMtQpWtqp_j0sNa2n3n8lmFtdJJD-EG2f1lYSXtALsdebdQrDTkdqIDd4HjJn_hB05sipRHwyj4su2aLwVQENGbALIrz9dbA4fEyZTExv9AJYLV13_c-8yeExT6dfvFWOKv7kIEHXqL5CFwr0R-bVMaKxO90TlJgRMHsgrVeD65dWO9qDMJWax7cksFwoVfVs70OtOqy6abFpGtbciv760p_iFfEdy-3GN2QS4maG9JsVjkS62BXpLx5YNdKOuQ1S-MrHfi-D5WYIYBu4ARif-Gu_nrmMNMMtf_UfTzpnxeti7kM0p05UjTq0h1JWrKLIgrMluGPDq7skwGAtnLdgundhIpUnegioiVNdwY9KocrYZqJOAIpUvQy_7cutYMbLqvqmupPn92F5V8pQE25R-ZGJe4IpLH9XHvUYjls1W7ZvL0wTJh-qdQxzBbyDxIglCwMqeBpcAakKT5-CzpJvv7MigM8GyEcMHjQcbj_55tWDqiOzCoDnID943lVSjfrFn68NN697-M_8whyc4PN9-ygohaaBOV52yX9v0-o3hc2lcuaO9qYayDLao0p_O0-CEIia-HABAK_ezyiaTYtzPfOANd5MnFabg3Wqfew=w2160-h1446-s-no?authuser=0" alt="certificate picture">
               <!-- Box text -->
               <div class="project-minibox">
-                <div class="project-box-head">TRANG WEB XEM TIN TỨC</div>
+                <div class="project-box-head">TRANG WEB BÁN GHẾ</div>
                 <div class="project-box-icon"> 
-                  <i class="highlight">2021</i>
+                  <i class="highlight">2023</i>
                   <i class="icon-user-1"></i>
-                  <p>FUNiX</p>
+                  FUNiX
                   <i class="icon-lamp"></i>
-                  <p>Developer</p>
+                  Developer
                 </div> 
               <!-- Dòng 1  -->
                 <div class="project-box-table">
                   <div class="project-box-table-head">Mô tả</div>
-                  <div class="project-box-table-content">Trang web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa trên từ khoá</div>
+                  <div class="project-box-table-content">Trang web mẫu thiết kế bán các loại ghế, Giới thiệu về sản phẩm và chất liệu. Có các hình ảnh của sản phẩm. </div>
                 </div>
               <!-- Dòng 2 -->
                 <div class="project-box-table">
@@ -361,7 +388,7 @@
               <!-- Dòng 3 -->
                 <div class="project-box-table">
                   <div class="project-box-table-head">Công nghệ </div>
-                  <div class="project-box-table-content">- HTML, CSS, JavaScript</div>
+                  <div class="project-box-table-content">- HTML, CSS</div>
                 </div>
               </div> 
             </div> 
@@ -376,7 +403,7 @@
             <li><i class="icon-linkedin-circled"></i>Linkedin</li>
             <li><i class="icon-github-circled"></i>Github</li>
           </div>
-          <div class="d-block d-sm-none" >
+          <div class="d-block d-md-none" >
             <li><i class="icon-facebook-circled"></i></li>
             <li><i class="icon-linkedin-circled"></i></li>
             <li><i class="icon-github-circled"></i></li>

@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.banner img {
+  height: 50vh !important;
+  filter: brightness(50%) !important;
+}
+.container-navbar {
+  font-size: 0;
+  text-align: center;
+  /* margin: 0px; */
+  border: 1px solid #cbc8c8;
+  height: 50px;
+}
+.nav-item {
+  margin: auto;
+  font-size: 13px;
+  border-left: 1px solid #cbc8c8;
+
+  vertical-align: middle;
+  padding: 0px 20px;
+  height: 100%;
+
+  line-height: 50px;
+  display: inline-block;
+}
+.nav-item .content {
+  display: none;
+  /* none đối với tablet và mobile */
+  vertical-align: middle;
+  line-height: normal;
+  padding: 0 20px;
+}
+
+.nav-item i {
+  color: #199cdb;
+}
+
+.border-left {
+  border-left: 1px solid grey;
+}
+.certificate .border-left {
+  border-left: 1px solid #ffc007;
+}
+.spacing {
+  content: "";
+  width: 30px;
+  /* tại nabar cần width 30px */
+  height: 100%;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+#target {
+  background-color: #f3f6f4;
+}
+#personal-info {
+  background-color: #eee;
+}
+.hobie-icon {
+  display: inline-block;
+  text-align: center;
+}
+
+.big-icon {
+  font-size: 36px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.top-and-icon {
+  display: Grid;
+  grid-template-columns: 75% 25%;
+}
+.BRAND {
+  padding: 15px 0px 0px 20px;
+  position: relative;
+}
+.BRAND::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 29px;
+  width: 7px;
+  height: 7px;
+
+  background-color: #059ad7;
+  border-radius: 50%;
+}
+i {
+  line-height: 1.2;
+}
+strong {
+  font-size: 14px;
+  line-height: 2.5;
+}
+.circle {
+  height: 35px;
+  width: 35px;
+  border: 1px solid rgb(0, 106, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobie .circle i {
+  color: rgb(0, 106, 255);
+}
+.score {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.inscore {
+  background: #858a8c;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.certificate .border-bottom {
+  border: none !important;
+}
+.certify-sup {
+  color: #6b6564;
+}
+
+.project-minibox {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #858a8c;
+  flex-grow: 1;
+}
+.project-minibox > div {
+  border-bottom: 1px solid #858a8c;
+}
+.project-minibox div:last-child {
+  border: none;
+}
+.project-box-head {
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.project-box-icon {
+  align-items: center;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.highlight {
+  border-radius: 5px;
+  background-color: #2f88ff;
+  color: #fff;
+  padding: 2px;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.project-box-table {
+  padding: 7px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 23% 75%;
+}
+.project-box-table-head {
+  float: left;
+}
+.project-box-table-content {
+  float: right;
+  padding: 5px;
+}
+/* phần footer */
+
+#footer .container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#footer .container li {
+  float: left;
+  padding: 20px;
+}
+li::marker {
+  content: "";
+}
+ul {
+  padding-inline-start: 0px;
+}
+.nav-item i {
+  color: #199cdb;
+}
+#footer {
+  font-size: 160%;
+}
